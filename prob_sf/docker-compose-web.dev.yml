@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  judge-web-debug:
+    container_name: debug-web-local
+    build:
+      context: .
+      dockerfile: dockerfile/Dockerfile-web
+    volumes:
+      - .:/app
+      - /app/judge-web/node_modules 
+    ports:
+      - 3000:3000

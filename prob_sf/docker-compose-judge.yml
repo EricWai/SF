@@ -1,0 +1,56 @@
+version: '2'
+
+services:
+  sf-node-1:
+    image: public-images-registry.cn-hangzhou.cr.aliyuncs.com/public/sf-ai-2023:judge
+    restart: "no"
+    container_name: sf-node-player
+    cpuset: "1"
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 2G 
+        reservations:
+          cpus: '1.0'
+          memory: 2G
+    networks:
+      - sf
+    volumes:
+      - "./node-player:/work"
+    environment:
+      - NODE_ID=1
+      - MEMORY=16G
+      - CPU=2C
+      - sf-judge-server=http://sf-judge-server:5555
+    depends_on:
+      - sf-judge-server
+    working_dir: /work
+    command: ["bash", "./run.sh"]
+
+
+  sf-judge-server:
+    image: public-images-registry.cn-hangzhou.cr.aliyuncs.com/public/sf-ai-2023:judge
+    restart: "no"
+    container_name:  sf-node-judger
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 2G 
+        reservations:
+          cpus: '1.0'
+          memory: 2G
+    networks:
+      - sf
+    volumes:
+      - "./node-judger:/work"
+      - "./data:/work/data:ro"
+    working_dir: /work
+    command: ["bash", "./run.sh"]
+
+networks:
+  sf:
+    name: sf
+    internal: true
+

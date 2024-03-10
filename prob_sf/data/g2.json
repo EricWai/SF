@@ -1,0 +1,702 @@
+{
+    "map_attr": {
+        "width": 13,
+        "height": 11,
+        "max_steps": 1000,
+        "timeout": 3
+    },
+    "map_state": {
+        "agvs": [
+            {
+                "id": 0,
+                "name": "agvs_0",
+                "payload": null,
+                "cap": 1
+            },
+            {
+                "id": 1,
+                "name": "agvs_1",
+                "payload": null,
+                "cap": 1
+            },
+            {
+                "id": 2,
+                "name": "agvs_2",
+                "payload": null,
+                "cap": 1
+            },
+            {
+                "id": 3,
+                "name": "agvs_3",
+                "payload": null,
+                "cap": 1
+            },
+            {
+                "id": 4,
+                "name": "agvs_4",
+                "payload": null,
+                "cap": 1
+            },
+            {
+                "id": 5,
+                "name": "agvs_5",
+                "payload": null,
+                "cap": 1
+            },
+            {
+                "id": 6,
+                "name": "agvs_6",
+                "payload": null,
+                "cap": 1
+            },
+            {
+                "id": 7,
+                "name": "agvs_7",
+                "payload": null,
+                "cap": 1
+            },
+            {
+                "id": 8,
+                "name": "agvs_8",
+                "payload": null,
+                "cap": 1
+            },
+            {
+                "id": 9,
+                "name": "agvs_9",
+                "payload": null,
+                "cap": 1
+            },
+            {
+                "id": 10,
+                "name": "agvs_10",
+                "payload": null,
+                "cap": 1
+            },
+            {
+                "id": 11,
+                "name": "agvs_11",
+                "payload": null,
+                "cap": 1
+            }
+        ],
+        "cargos": [
+            {
+                "id": 0,
+                "name": "cargos_0",
+                "target": 0,
+                "weight": 1
+            },
+            {
+                "id": 1,
+                "name": "cargos_1",
+                "target": 1,
+                "weight": 1
+            },
+            {
+                "id": 2,
+                "name": "cargos_2",
+                "target": 2,
+                "weight": 1
+            },
+            {
+                "id": 3,
+                "name": "cargos_3",
+                "target": 3,
+                "weight": 1
+            },
+            {
+                "id": 4,
+                "name": "cargos_4",
+                "target": 4,
+                "weight": 1
+            },
+            {
+                "id": 5,
+                "name": "cargos_5",
+                "target": 5,
+                "weight": 1
+            },
+            {
+                "id": 6,
+                "name": "cargos_6",
+                "target": 6,
+                "weight": 1
+            },
+            {
+                "id": 7,
+                "name": "cargos_7",
+                "target": 7,
+                "weight": 1
+            },
+            {
+                "id": 8,
+                "name": "cargos_8",
+                "target": 8,
+                "weight": 1
+            },
+            {
+                "id": 9,
+                "name": "cargos_9",
+                "target": 9,
+                "weight": 1
+            },
+            {
+                "id": 10,
+                "name": "cargos_10",
+                "target": 10,
+                "weight": 1
+            },
+            {
+                "id": 11,
+                "name": "cargos_11",
+                "target": 11,
+                "weight": 1
+            },
+            {
+                "id": 12,
+                "name": "cargos_12",
+                "target": 12,
+                "weight": 1
+            },
+            {
+                "id": 13,
+                "name": "cargos_13",
+                "target": 13,
+                "weight": 1
+            },
+            {
+                "id": 14,
+                "name": "cargos_14",
+                "target": 14,
+                "weight": 1
+            },
+            {
+                "id": 15,
+                "name": "cargos_15",
+                "target": 15,
+                "weight": 1
+            },
+            {
+                "id": 16,
+                "name": "cargos_16",
+                "target": 16,
+                "weight": 1
+            },
+            {
+                "id": 17,
+                "name": "cargos_17",
+                "target": 17,
+                "weight": 1
+            },
+            {
+                "id": 18,
+                "name": "cargos_18",
+                "target": 18,
+                "weight": 1
+            },
+            {
+                "id": 19,
+                "name": "cargos_19",
+                "target": 19,
+                "weight": 1
+            },
+            {
+                "id": 20,
+                "name": "cargos_20",
+                "target": 20,
+                "weight": 1
+            },
+            {
+                "id": 21,
+                "name": "cargos_21",
+                "target": 21,
+                "weight": 1
+            },
+            {
+                "id": 22,
+                "name": "cargos_22",
+                "target": 22,
+                "weight": 1
+            },
+            {
+                "id": 23,
+                "name": "cargos_23",
+                "target": 23,
+                "weight": 1
+            },
+            {
+                "id": 24,
+                "name": "cargos_24",
+                "target": 24,
+                "weight": 1
+            },
+            {
+                "id": 25,
+                "name": "cargos_25",
+                "target": 25,
+                "weight": 1
+            },
+            {
+                "id": 26,
+                "name": "cargos_26",
+                "target": 26,
+                "weight": 1
+            },
+            {
+                "id": 27,
+                "name": "cargos_27",
+                "target": 27,
+                "weight": 1
+            },
+            {
+                "id": 28,
+                "name": "cargos_28",
+                "target": 28,
+                "weight": 1
+            },
+            {
+                "id": 29,
+                "name": "cargos_29",
+                "target": 29,
+                "weight": 1
+            }
+        ],
+        "shelves": [
+            {
+                "id": 0,
+                "name": "shelves_0",
+                "payload": 15,
+                "cap": 1
+            },
+            {
+                "id": 1,
+                "name": "shelves_1",
+                "payload": 10,
+                "cap": 1
+            },
+            {
+                "id": 2,
+                "name": "shelves_2",
+                "payload": 8,
+                "cap": 1
+            },
+            {
+                "id": 3,
+                "name": "shelves_3",
+                "payload": 18,
+                "cap": 1
+            },
+            {
+                "id": 4,
+                "name": "shelves_4",
+                "payload": 19,
+                "cap": 1
+            },
+            {
+                "id": 5,
+                "name": "shelves_5",
+                "payload": 1,
+                "cap": 1
+            },
+            {
+                "id": 6,
+                "name": "shelves_6",
+                "payload": 22,
+                "cap": 1
+            },
+            {
+                "id": 7,
+                "name": "shelves_7",
+                "payload": 29,
+                "cap": 1
+            },
+            {
+                "id": 8,
+                "name": "shelves_8",
+                "payload": 6,
+                "cap": 1
+            },
+            {
+                "id": 9,
+                "name": "shelves_9",
+                "payload": 2,
+                "cap": 1
+            },
+            {
+                "id": 10,
+                "name": "shelves_10",
+                "payload": 13,
+                "cap": 1
+            },
+            {
+                "id": 11,
+                "name": "shelves_11",
+                "payload": 25,
+                "cap": 1
+            },
+            {
+                "id": 12,
+                "name": "shelves_12",
+                "payload": 7,
+                "cap": 1
+            },
+            {
+                "id": 13,
+                "name": "shelves_13",
+                "payload": 28,
+                "cap": 1
+            },
+            {
+                "id": 14,
+                "name": "shelves_14",
+                "payload": 24,
+                "cap": 1
+            },
+            {
+                "id": 15,
+                "name": "shelves_15",
+                "payload": 14,
+                "cap": 1
+            },
+            {
+                "id": 16,
+                "name": "shelves_16",
+                "payload": 26,
+                "cap": 1
+            },
+            {
+                "id": 17,
+                "name": "shelves_17",
+                "payload": 5,
+                "cap": 1
+            },
+            {
+                "id": 18,
+                "name": "shelves_18",
+                "payload": 23,
+                "cap": 1
+            },
+            {
+                "id": 19,
+                "name": "shelves_19",
+                "payload": 21,
+                "cap": 1
+            },
+            {
+                "id": 20,
+                "name": "shelves_20",
+                "payload": 16,
+                "cap": 1
+            },
+            {
+                "id": 21,
+                "name": "shelves_21",
+                "payload": 27,
+                "cap": 1
+            },
+            {
+                "id": 22,
+                "name": "shelves_22",
+                "payload": 17,
+                "cap": 1
+            },
+            {
+                "id": 23,
+                "name": "shelves_23",
+                "payload": 0,
+                "cap": 1
+            },
+            {
+                "id": 24,
+                "name": "shelves_24",
+                "payload": 3,
+                "cap": 1
+            },
+            {
+                "id": 25,
+                "name": "shelves_25",
+                "payload": 12,
+                "cap": 1
+            },
+            {
+                "id": 26,
+                "name": "shelves_26",
+                "payload": 20,
+                "cap": 1
+            },
+            {
+                "id": 27,
+                "name": "shelves_27",
+                "payload": 4,
+                "cap": 1
+            },
+            {
+                "id": 28,
+                "name": "shelves_28",
+                "payload": 11,
+                "cap": 1
+            },
+            {
+                "id": 29,
+                "name": "shelves_29",
+                "payload": 9,
+                "cap": 1
+            }
+        ],
+        "maps": [
+            {
+                "x": 1,
+                "y": 8,
+                "type": "agv",
+                "id": 0
+            },
+            {
+                "x": 1,
+                "y": 9,
+                "type": "agv",
+                "id": 1
+            },
+            {
+                "x": 3,
+                "y": 8,
+                "type": "agv",
+                "id": 2
+            },
+            {
+                "x": 3,
+                "y": 9,
+                "type": "agv",
+                "id": 3
+            },
+            {
+                "x": 5,
+                "y": 8,
+                "type": "agv",
+                "id": 4
+            },
+            {
+                "x": 5,
+                "y": 9,
+                "type": "agv",
+                "id": 5
+            },
+            {
+                "x": 7,
+                "y": 8,
+                "type": "agv",
+                "id": 6
+            },
+            {
+                "x": 7,
+                "y": 9,
+                "type": "agv",
+                "id": 7
+            },
+            {
+                "x": 9,
+                "y": 8,
+                "type": "agv",
+                "id": 8
+            },
+            {
+                "x": 9,
+                "y": 9,
+                "type": "agv",
+                "id": 9
+            },
+            {
+                "x": 11,
+                "y": 8,
+                "type": "agv",
+                "id": 10
+            },
+            {
+                "x": 11,
+                "y": 9,
+                "type": "agv",
+                "id": 11
+            },
+            {
+                "x": 1,
+                "y": 1,
+                "type": "shelf",
+                "id": 0
+            },
+            {
+                "x": 1,
+                "y": 2,
+                "type": "shelf",
+                "id": 1
+            },
+            {
+                "x": 1,
+                "y": 3,
+                "type": "shelf",
+                "id": 2
+            },
+            {
+                "x": 1,
+                "y": 4,
+                "type": "shelf",
+                "id": 3
+            },
+            {
+                "x": 1,
+                "y": 5,
+                "type": "shelf",
+                "id": 4
+            },
+            {
+                "x": 3,
+                "y": 1,
+                "type": "shelf",
+                "id": 5
+            },
+            {
+                "x": 3,
+                "y": 2,
+                "type": "shelf",
+                "id": 6
+            },
+            {
+                "x": 3,
+                "y": 3,
+                "type": "shelf",
+                "id": 7
+            },
+            {
+                "x": 3,
+                "y": 4,
+                "type": "shelf",
+                "id": 8
+            },
+            {
+                "x": 3,
+                "y": 5,
+                "type": "shelf",
+                "id": 9
+            },
+            {
+                "x": 5,
+                "y": 1,
+                "type": "shelf",
+                "id": 10
+            },
+            {
+                "x": 5,
+                "y": 2,
+                "type": "shelf",
+                "id": 11
+            },
+            {
+                "x": 5,
+                "y": 3,
+                "type": "shelf",
+                "id": 12
+            },
+            {
+                "x": 5,
+                "y": 4,
+                "type": "shelf",
+                "id": 13
+            },
+            {
+                "x": 5,
+                "y": 5,
+                "type": "shelf",
+                "id": 14
+            },
+            {
+                "x": 7,
+                "y": 1,
+                "type": "shelf",
+                "id": 15
+            },
+            {
+                "x": 7,
+                "y": 2,
+                "type": "shelf",
+                "id": 16
+            },
+            {
+                "x": 7,
+                "y": 3,
+                "type": "shelf",
+                "id": 17
+            },
+            {
+                "x": 7,
+                "y": 4,
+                "type": "shelf",
+                "id": 18
+            },
+            {
+                "x": 7,
+                "y": 5,
+                "type": "shelf",
+                "id": 19
+            },
+            {
+                "x": 9,
+                "y": 1,
+                "type": "shelf",
+                "id": 20
+            },
+            {
+                "x": 9,
+                "y": 2,
+                "type": "shelf",
+                "id": 21
+            },
+            {
+                "x": 9,
+                "y": 3,
+                "type": "shelf",
+                "id": 22
+            },
+            {
+                "x": 9,
+                "y": 4,
+                "type": "shelf",
+                "id": 23
+            },
+            {
+                "x": 9,
+                "y": 5,
+                "type": "shelf",
+                "id": 24
+            },
+            {
+                "x": 11,
+                "y": 1,
+                "type": "shelf",
+                "id": 25
+            },
+            {
+                "x": 11,
+                "y": 2,
+                "type": "shelf",
+                "id": 26
+            },
+            {
+                "x": 11,
+                "y": 3,
+                "type": "shelf",
+                "id": 27
+            },
+            {
+                "x": 11,
+                "y": 4,
+                "type": "shelf",
+                "id": 28
+            },
+            {
+                "x": 11,
+                "y": 5,
+                "type": "shelf",
+                "id": 29
+            }
+        ]
+    }
+}

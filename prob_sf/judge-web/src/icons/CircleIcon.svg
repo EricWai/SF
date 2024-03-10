@@ -1,0 +1,12 @@
+<svg width="387px" height="459px" viewBox="0 0 387 459" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-69.8%" y="-69.8%" width="239.5%" height="239.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.117582775">
+        <g id="算法大赛-答题记录" transform="translate(0.000000, -242.000000)" fill="#7D7DFF">
+            <circle id="椭圆形备份" filter="url(#filter-1)" cx="157.5" cy="471.5" r="107.5"></circle>
+        </g>
+    </g>
+</svg>

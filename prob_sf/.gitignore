@@ -1,0 +1,7 @@
+*.tar.gz
+node-judger/
+node-player/
+node_modules
+*.log
+judge-web/node_modules
+build/
